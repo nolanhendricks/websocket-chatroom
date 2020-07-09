@@ -1,0 +1,28 @@
+{
+    "name": "netninja-websockets",
+    "version": "1.0.0",
+    "description": "chat app ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nolanhendricks/websocket-chatroom.git"
+    },
+    "author": "nolanhendricks",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nolanhendricks/websocket-chatroom/issues"
+    },
+    "homepage": "https://github.com/nolanhendricks/websocket-chatroom#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "npm": "^6.14.6",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
